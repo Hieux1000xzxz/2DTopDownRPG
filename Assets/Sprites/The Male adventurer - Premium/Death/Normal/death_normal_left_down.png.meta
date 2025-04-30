@@ -58,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -137,10 +137,10 @@ TextureImporter:
       name: death_normal_left_down_0
       rect:
         serializedVersion: 2
-        x: 17
-        y: 19
-        width: 15
-        height: 27
+        x: 0
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -159,10 +159,10 @@ TextureImporter:
       name: death_normal_left_down_1
       rect:
         serializedVersion: 2
-        x: 64
-        y: 19
-        width: 15
-        height: 24
+        x: 48
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,10 +181,10 @@ TextureImporter:
       name: death_normal_left_down_2
       rect:
         serializedVersion: 2
-        x: 111
-        y: 20
-        width: 15
-        height: 21
+        x: 96
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,10 +203,10 @@ TextureImporter:
       name: death_normal_left_down_3
       rect:
         serializedVersion: 2
-        x: 159
-        y: 20
-        width: 15
-        height: 22
+        x: 144
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,10 +225,10 @@ TextureImporter:
       name: death_normal_left_down_4
       rect:
         serializedVersion: 2
-        x: 206
-        y: 20
-        width: 15
-        height: 21
+        x: 192
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,10 +247,10 @@ TextureImporter:
       name: death_normal_left_down_5
       rect:
         serializedVersion: 2
-        x: 250
-        y: 19
-        width: 18
-        height: 20
+        x: 240
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -269,10 +269,10 @@ TextureImporter:
       name: death_normal_left_down_6
       rect:
         serializedVersion: 2
-        x: 293
-        y: 14
-        width: 23
-        height: 15
+        x: 288
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -291,10 +291,10 @@ TextureImporter:
       name: death_normal_left_down_7
       rect:
         serializedVersion: 2
-        x: 341
-        y: 14
-        width: 23
-        height: 14
+        x: 336
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,7 +313,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 6e3a5c0508f9f224cae543d0ece37a11
     internalID: 0
     vertices: []
     indices: 
@@ -322,7 +322,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      death_normal_left_down_0: -5416480152773320166
+      death_normal_left_down_1: -4760317575139847411
+      death_normal_left_down_2: 234494046078843961
+      death_normal_left_down_3: 8709331593437167014
+      death_normal_left_down_4: 8371578364244160050
+      death_normal_left_down_5: 6786413186568428793
+      death_normal_left_down_6: 6318081968136910327
+      death_normal_left_down_7: 647116657906042960
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

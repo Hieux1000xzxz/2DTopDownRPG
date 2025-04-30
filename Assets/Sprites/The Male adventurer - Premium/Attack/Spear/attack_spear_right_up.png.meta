@@ -58,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -137,10 +137,10 @@ TextureImporter:
       name: attack_spear_right_up_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 17
-        width: 20
-        height: 29
+        x: 0
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -159,10 +159,10 @@ TextureImporter:
       name: attack_spear_right_up_1
       rect:
         serializedVersion: 2
-        x: 63
-        y: 19
-        width: 22
-        height: 30
+        x: 48
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,10 +181,10 @@ TextureImporter:
       name: attack_spear_right_up_2
       rect:
         serializedVersion: 2
-        x: 110
-        y: 19
-        width: 21
-        height: 34
+        x: 96
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,10 +203,10 @@ TextureImporter:
       name: attack_spear_right_up_3
       rect:
         serializedVersion: 2
-        x: 160
-        y: 19
-        width: 24
-        height: 26
+        x: 144
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,10 +225,10 @@ TextureImporter:
       name: attack_spear_right_up_4
       rect:
         serializedVersion: 2
-        x: 208
-        y: 17
-        width: 22
-        height: 26
+        x: 192
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,10 +247,10 @@ TextureImporter:
       name: attack_spear_right_up_5
       rect:
         serializedVersion: 2
-        x: 256
-        y: 19
-        width: 31
-        height: 26
+        x: 240
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -269,10 +269,10 @@ TextureImporter:
       name: attack_spear_right_up_6
       rect:
         serializedVersion: 2
-        x: 304
-        y: 19
-        width: 26
-        height: 24
+        x: 288
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -291,10 +291,10 @@ TextureImporter:
       name: attack_spear_right_up_7
       rect:
         serializedVersion: 2
-        x: 352
-        y: 19
-        width: 22
-        height: 27
+        x: 336
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,7 +313,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 0e8434e19a8bc03408268373d99ba2de
     internalID: 0
     vertices: []
     indices: 
@@ -322,7 +322,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      attack_spear_right_up_0: -972236155665355886
+      attack_spear_right_up_1: -8964067696377702484
+      attack_spear_right_up_2: -4604891391576590830
+      attack_spear_right_up_3: 2046888446140854317
+      attack_spear_right_up_4: 6062437762219314081
+      attack_spear_right_up_5: -2303864661578278454
+      attack_spear_right_up_6: -1965874098847778886
+      attack_spear_right_up_7: -4880016935826163869
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

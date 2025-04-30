@@ -58,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -137,10 +137,10 @@ TextureImporter:
       name: Shooting_up_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 20
-        width: 18
-        height: 33
+        x: 0
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -159,10 +159,10 @@ TextureImporter:
       name: Shooting_up_1
       rect:
         serializedVersion: 2
-        x: 63
-        y: 20
-        width: 18
-        height: 26
+        x: 48
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,10 +181,10 @@ TextureImporter:
       name: Shooting_up_2
       rect:
         serializedVersion: 2
-        x: 111
-        y: 20
-        width: 18
-        height: 33
+        x: 96
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,10 +203,10 @@ TextureImporter:
       name: Shooting_up_3
       rect:
         serializedVersion: 2
-        x: 159
-        y: 20
-        width: 18
-        height: 26
+        x: 144
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,10 +225,10 @@ TextureImporter:
       name: Shooting_up_4
       rect:
         serializedVersion: 2
-        x: 207
-        y: 20
-        width: 18
-        height: 33
+        x: 192
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,10 +247,10 @@ TextureImporter:
       name: Shooting_up_5
       rect:
         serializedVersion: 2
-        x: 255
-        y: 20
-        width: 18
-        height: 26
+        x: 240
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -269,10 +269,10 @@ TextureImporter:
       name: Shooting_up_6
       rect:
         serializedVersion: 2
-        x: 303
-        y: 20
-        width: 18
-        height: 33
+        x: 288
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -291,10 +291,10 @@ TextureImporter:
       name: Shooting_up_7
       rect:
         serializedVersion: 2
-        x: 351
-        y: 20
-        width: 18
-        height: 26
+        x: 336
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,7 +313,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 37699580b2cf930419525181822cce39
     internalID: 0
     vertices: []
     indices: 
@@ -322,7 +322,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Shooting_up_0: 6732748684791977570
+      Shooting_up_1: 7195045421695191077
+      Shooting_up_2: -582464278702716881
+      Shooting_up_3: 5314391401515348843
+      Shooting_up_4: -7403921053909818387
+      Shooting_up_5: 2683504071911271383
+      Shooting_up_6: 4594395848022219531
+      Shooting_up_7: -4769521132924865628
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

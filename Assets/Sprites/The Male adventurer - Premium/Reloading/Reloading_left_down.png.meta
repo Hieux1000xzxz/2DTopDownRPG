@@ -58,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -137,10 +137,10 @@ TextureImporter:
       name: Reloading_left_down_0
       rect:
         serializedVersion: 2
-        x: 14
-        y: 19
-        width: 18
-        height: 27
+        x: 0
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -159,10 +159,10 @@ TextureImporter:
       name: Reloading_left_down_1
       rect:
         serializedVersion: 2
-        x: 62
-        y: 19
-        width: 18
-        height: 26
+        x: 48
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,10 +181,10 @@ TextureImporter:
       name: Reloading_left_down_2
       rect:
         serializedVersion: 2
-        x: 110
-        y: 19
-        width: 18
-        height: 27
+        x: 96
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,10 +203,10 @@ TextureImporter:
       name: Reloading_left_down_3
       rect:
         serializedVersion: 2
-        x: 158
-        y: 19
-        width: 18
-        height: 28
+        x: 144
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,10 +225,10 @@ TextureImporter:
       name: Reloading_left_down_4
       rect:
         serializedVersion: 2
-        x: 205
-        y: 19
-        width: 18
-        height: 27
+        x: 192
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,10 +247,10 @@ TextureImporter:
       name: Reloading_left_down_5
       rect:
         serializedVersion: 2
-        x: 253
-        y: 19
-        width: 18
-        height: 26
+        x: 240
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -269,10 +269,10 @@ TextureImporter:
       name: Reloading_left_down_6
       rect:
         serializedVersion: 2
-        x: 302
-        y: 19
-        width: 18
-        height: 27
+        x: 288
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -291,10 +291,10 @@ TextureImporter:
       name: Reloading_left_down_7
       rect:
         serializedVersion: 2
-        x: 351
-        y: 19
-        width: 18
-        height: 27
+        x: 336
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,7 +313,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: de64076aa59e1314192acd167362a5cc
     internalID: 0
     vertices: []
     indices: 
@@ -322,7 +322,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Reloading_left_down_0: -5203887802638071194
+      Reloading_left_down_1: -3482542760400299908
+      Reloading_left_down_2: 8584078407079122574
+      Reloading_left_down_3: -1553145617045389731
+      Reloading_left_down_4: -3622786337607638557
+      Reloading_left_down_5: 5352551419319706752
+      Reloading_left_down_6: -2315076581008787290
+      Reloading_left_down_7: -4484135655198874170
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

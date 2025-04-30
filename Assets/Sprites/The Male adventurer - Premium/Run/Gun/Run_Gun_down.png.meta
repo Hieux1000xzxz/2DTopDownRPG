@@ -58,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -137,10 +137,10 @@ TextureImporter:
       name: Run_Gun_down_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 19
-        width: 16
-        height: 28
+        x: 0
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -159,10 +159,10 @@ TextureImporter:
       name: Run_Gun_down_1
       rect:
         serializedVersion: 2
-        x: 63
-        y: 18
-        width: 16
-        height: 28
+        x: 48
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,10 +181,10 @@ TextureImporter:
       name: Run_Gun_down_2
       rect:
         serializedVersion: 2
-        x: 111
-        y: 17
-        width: 16
-        height: 27
+        x: 96
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,10 +203,10 @@ TextureImporter:
       name: Run_Gun_down_3
       rect:
         serializedVersion: 2
-        x: 159
-        y: 20
-        width: 16
-        height: 26
+        x: 144
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,10 +225,10 @@ TextureImporter:
       name: Run_Gun_down_4
       rect:
         serializedVersion: 2
-        x: 207
-        y: 21
-        width: 16
-        height: 26
+        x: 192
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,10 +247,10 @@ TextureImporter:
       name: Run_Gun_down_5
       rect:
         serializedVersion: 2
-        x: 255
-        y: 19
-        width: 16
-        height: 27
+        x: 240
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -269,10 +269,10 @@ TextureImporter:
       name: Run_Gun_down_6
       rect:
         serializedVersion: 2
-        x: 303
-        y: 18
-        width: 16
-        height: 26
+        x: 288
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -291,10 +291,10 @@ TextureImporter:
       name: Run_Gun_down_7
       rect:
         serializedVersion: 2
-        x: 351
-        y: 19
-        width: 16
-        height: 27
+        x: 336
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,7 +313,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 35ed2d28d9073204f975e359edd6b1e7
     internalID: 0
     vertices: []
     indices: 
@@ -322,7 +322,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Run_Gun_down_0: 6949181272517087380
+      Run_Gun_down_1: 5438170664896278384
+      Run_Gun_down_2: -1181193429806509021
+      Run_Gun_down_3: -102360860967971106
+      Run_Gun_down_4: -4978587702583085121
+      Run_Gun_down_5: -5303855873490423485
+      Run_Gun_down_6: -4696779195941133547
+      Run_Gun_down_7: 6677913925161083953
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

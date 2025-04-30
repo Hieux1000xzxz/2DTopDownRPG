@@ -58,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -137,10 +137,10 @@ TextureImporter:
       name: Dash_Spear_right_Down_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 17
-        width: 17
-        height: 29
+        x: 0
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -159,10 +159,10 @@ TextureImporter:
       name: Dash_Spear_right_Down_1
       rect:
         serializedVersion: 2
-        x: 63
-        y: 20
-        width: 22
-        height: 24
+        x: 48
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,10 +181,10 @@ TextureImporter:
       name: Dash_Spear_right_Down_2
       rect:
         serializedVersion: 2
-        x: 107
-        y: 23
-        width: 30
-        height: 20
+        x: 96
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,10 +203,10 @@ TextureImporter:
       name: Dash_Spear_right_Down_3
       rect:
         serializedVersion: 2
-        x: 157
-        y: 15
-        width: 26
-        height: 29
+        x: 144
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,10 +225,10 @@ TextureImporter:
       name: Dash_Spear_right_Down_4
       rect:
         serializedVersion: 2
-        x: 205
-        y: 14
-        width: 26
-        height: 29
+        x: 192
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,10 +247,10 @@ TextureImporter:
       name: Dash_Spear_right_Down_5
       rect:
         serializedVersion: 2
-        x: 253
-        y: 14
-        width: 26
-        height: 29
+        x: 240
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -269,10 +269,10 @@ TextureImporter:
       name: Dash_Spear_right_Down_6
       rect:
         serializedVersion: 2
-        x: 300
-        y: 12
-        width: 27
-        height: 29
+        x: 288
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -291,10 +291,10 @@ TextureImporter:
       name: Dash_Spear_right_Down_7
       rect:
         serializedVersion: 2
-        x: 351
-        y: 20
-        width: 29
-        height: 24
+        x: 336
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,7 +313,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 807c577652a9fae419ba819aacc22409
     internalID: 0
     vertices: []
     indices: 
@@ -322,7 +322,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Dash_Spear_right_Down_0: 1887906204459680420
+      Dash_Spear_right_Down_1: 2821741170562897548
+      Dash_Spear_right_Down_2: 7825766246413894990
+      Dash_Spear_right_Down_3: 7651129057349994200
+      Dash_Spear_right_Down_4: 2415201546771488281
+      Dash_Spear_right_Down_5: -5418125708661580740
+      Dash_Spear_right_Down_6: -1214387596463376928
+      Dash_Spear_right_Down_7: 6386505718433711325
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

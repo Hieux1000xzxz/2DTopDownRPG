@@ -58,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -137,10 +137,10 @@ TextureImporter:
       name: Walk_Gun_up_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 19
-        width: 18
-        height: 27
+        x: 0
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -159,10 +159,10 @@ TextureImporter:
       name: Walk_Gun_up_1
       rect:
         serializedVersion: 2
-        x: 61
-        y: 19
-        width: 18
-        height: 26
+        x: 48
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,10 +181,10 @@ TextureImporter:
       name: Walk_Gun_up_2
       rect:
         serializedVersion: 2
-        x: 109
-        y: 19
-        width: 18
-        height: 26
+        x: 96
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,10 +203,10 @@ TextureImporter:
       name: Walk_Gun_up_3
       rect:
         serializedVersion: 2
-        x: 157
-        y: 21
-        width: 18
-        height: 25
+        x: 144
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,10 +225,10 @@ TextureImporter:
       name: Walk_Gun_up_4
       rect:
         serializedVersion: 2
-        x: 206
-        y: 19
-        width: 18
-        height: 27
+        x: 192
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,10 +247,10 @@ TextureImporter:
       name: Walk_Gun_up_5
       rect:
         serializedVersion: 2
-        x: 254
-        y: 19
-        width: 18
-        height: 26
+        x: 240
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -269,10 +269,10 @@ TextureImporter:
       name: Walk_Gun_up_6
       rect:
         serializedVersion: 2
-        x: 302
-        y: 19
-        width: 18
-        height: 26
+        x: 288
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -291,10 +291,10 @@ TextureImporter:
       name: Walk_Gun_up_7
       rect:
         serializedVersion: 2
-        x: 350
-        y: 21
-        width: 18
-        height: 25
+        x: 336
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,7 +313,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 08d906d82be45e24cb93ffee4345334d
     internalID: 0
     vertices: []
     indices: 
@@ -322,7 +322,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Walk_Gun_up_0: -4294980348368379584
+      Walk_Gun_up_1: 2865176815134855011
+      Walk_Gun_up_2: -8825207427838716718
+      Walk_Gun_up_3: -3938150422009236911
+      Walk_Gun_up_4: 6268258601745238044
+      Walk_Gun_up_5: 1369104142553363935
+      Walk_Gun_up_6: 8322835403836383245
+      Walk_Gun_up_7: 3708441212977517155
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

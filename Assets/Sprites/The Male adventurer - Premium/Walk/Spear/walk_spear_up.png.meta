@@ -58,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -137,10 +137,10 @@ TextureImporter:
       name: walk_spear_up_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 19
-        width: 22
-        height: 32
+        x: 0
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -159,10 +159,10 @@ TextureImporter:
       name: walk_spear_up_1
       rect:
         serializedVersion: 2
-        x: 64
-        y: 19
-        width: 21
-        height: 32
+        x: 48
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,10 +181,10 @@ TextureImporter:
       name: walk_spear_up_2
       rect:
         serializedVersion: 2
-        x: 112
-        y: 19
-        width: 20
-        height: 31
+        x: 96
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,10 +203,10 @@ TextureImporter:
       name: walk_spear_up_3
       rect:
         serializedVersion: 2
-        x: 160
-        y: 21
-        width: 21
-        height: 28
+        x: 144
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,10 +225,10 @@ TextureImporter:
       name: walk_spear_up_4
       rect:
         serializedVersion: 2
-        x: 208
-        y: 19
-        width: 20
-        height: 28
+        x: 192
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,10 +247,10 @@ TextureImporter:
       name: walk_spear_up_5
       rect:
         serializedVersion: 2
-        x: 256
-        y: 19
-        width: 20
-        height: 30
+        x: 240
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -269,10 +269,10 @@ TextureImporter:
       name: walk_spear_up_6
       rect:
         serializedVersion: 2
-        x: 304
-        y: 19
-        width: 22
-        height: 32
+        x: 288
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -291,10 +291,10 @@ TextureImporter:
       name: walk_spear_up_7
       rect:
         serializedVersion: 2
-        x: 352
-        y: 21
-        width: 22
-        height: 31
+        x: 336
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,7 +313,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 009569580d3f1dc4186662f5853a3332
     internalID: 0
     vertices: []
     indices: 
@@ -322,7 +322,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      walk_spear_up_0: -1744832632476923849
+      walk_spear_up_1: 7376697143360600751
+      walk_spear_up_2: -6214117868588971316
+      walk_spear_up_3: 8575603052190294609
+      walk_spear_up_4: 5989916140915550235
+      walk_spear_up_5: 8835320497548494445
+      walk_spear_up_6: 4130899874957790255
+      walk_spear_up_7: 8597493317067608688
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

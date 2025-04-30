@@ -58,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -137,10 +137,10 @@ TextureImporter:
       name: Dash_Gun_Up_0
       rect:
         serializedVersion: 2
-        x: 11
-        y: 20
-        width: 20
-        height: 25
+        x: 0
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -159,10 +159,10 @@ TextureImporter:
       name: Dash_Gun_Up_1
       rect:
         serializedVersion: 2
-        x: 63
-        y: 21
-        width: 18
-        height: 23
+        x: 48
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,10 +181,10 @@ TextureImporter:
       name: Dash_Gun_Up_2
       rect:
         serializedVersion: 2
-        x: 110
-        y: 23
-        width: 20
-        height: 22
+        x: 96
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,10 +203,10 @@ TextureImporter:
       name: Dash_Gun_Up_3
       rect:
         serializedVersion: 2
-        x: 158
-        y: 22
-        width: 20
-        height: 22
+        x: 144
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,10 +225,10 @@ TextureImporter:
       name: Dash_Gun_Up_4
       rect:
         serializedVersion: 2
-        x: 206
-        y: 21
-        width: 20
-        height: 22
+        x: 192
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,10 +247,10 @@ TextureImporter:
       name: Dash_Gun_Up_5
       rect:
         serializedVersion: 2
-        x: 254
-        y: 20
-        width: 20
-        height: 22
+        x: 240
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -269,10 +269,10 @@ TextureImporter:
       name: Dash_Gun_Up_6
       rect:
         serializedVersion: 2
-        x: 302
-        y: 21
-        width: 20
-        height: 21
+        x: 288
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -291,10 +291,10 @@ TextureImporter:
       name: Dash_Gun_Up_7
       rect:
         serializedVersion: 2
-        x: 350
-        y: 20
-        width: 18
-        height: 24
+        x: 336
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,7 +313,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 9de0bb2c650fab0468bf03b3a65a7e20
     internalID: 0
     vertices: []
     indices: 
@@ -322,7 +322,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Dash_Gun_Up_0: -2257299089406523617
+      Dash_Gun_Up_1: -7800722100625468964
+      Dash_Gun_Up_2: -8610290504115294573
+      Dash_Gun_Up_3: 6099740128684515675
+      Dash_Gun_Up_4: 238561779793031880
+      Dash_Gun_Up_5: 466069624604294244
+      Dash_Gun_Up_6: -7032187188749704788
+      Dash_Gun_Up_7: 4547017510444466720
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

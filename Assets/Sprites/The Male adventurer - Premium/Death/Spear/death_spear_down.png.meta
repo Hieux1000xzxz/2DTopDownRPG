@@ -70,7 +70,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -149,10 +149,10 @@ TextureImporter:
       name: death_spear_down_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 20
-        width: 19
-        height: 28
+        x: 0
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,10 +171,10 @@ TextureImporter:
       name: death_spear_down_1
       rect:
         serializedVersion: 2
-        x: 61
-        y: 19
-        width: 21
-        height: 27
+        x: 48
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,10 +193,10 @@ TextureImporter:
       name: death_spear_down_2
       rect:
         serializedVersion: 2
-        x: 109
-        y: 18
-        width: 19
-        height: 24
+        x: 96
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,10 +215,10 @@ TextureImporter:
       name: death_spear_down_3
       rect:
         serializedVersion: 2
-        x: 156
-        y: 16
-        width: 8
-        height: 15
+        x: 144
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,10 +237,10 @@ TextureImporter:
       name: death_spear_down_4
       rect:
         serializedVersion: 2
-        x: 162
-        y: 19
-        width: 14
-        height: 23
+        x: 192
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -259,10 +259,10 @@ TextureImporter:
       name: death_spear_down_5
       rect:
         serializedVersion: 2
-        x: 203
-        y: 5
-        width: 9
-        height: 22
+        x: 240
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -281,10 +281,10 @@ TextureImporter:
       name: death_spear_down_6
       rect:
         serializedVersion: 2
-        x: 210
-        y: 18
-        width: 14
-        height: 21
+        x: 288
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -303,10 +303,10 @@ TextureImporter:
       name: death_spear_down_7
       rect:
         serializedVersion: 2
-        x: 252
-        y: 5
-        width: 8
-        height: 23
+        x: 336
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -321,99 +321,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: death_spear_down_8
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 17
-        width: 18
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a69392208e261b590800000000000000
-      internalID: -7660232742572312214
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: death_spear_down_9
-      rect:
-        serializedVersion: 2
-        x: 299
-        y: 1
-        width: 8
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 057bf99eac5ab6ed0800000000000000
-      internalID: -2419658083859974320
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: death_spear_down_10
-      rect:
-        serializedVersion: 2
-        x: 304
-        y: 4
-        width: 18
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 087ed8e675ffa6720800000000000000
-      internalID: 2840363265992550272
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: death_spear_down_11
-      rect:
-        serializedVersion: 2
-        x: 345
-        y: 1
-        width: 25
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4e6af62e8b6ec2360800000000000000
-      internalID: 7146340390477473508
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5218e8fee0ca8ae45bcf341c6d96b27f
     internalID: 0
     vertices: []
     indices: 
@@ -422,7 +334,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      death_spear_down_0: -5303450054045235456
+      death_spear_down_1: 8494522067836295287
+      death_spear_down_2: 6491844044460464748
+      death_spear_down_3: -6741002755689636076
+      death_spear_down_4: -3206844174223887755
+      death_spear_down_5: 5803511857712759279
+      death_spear_down_6: -4187416662492509604
+      death_spear_down_7: 5009536068703484923
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

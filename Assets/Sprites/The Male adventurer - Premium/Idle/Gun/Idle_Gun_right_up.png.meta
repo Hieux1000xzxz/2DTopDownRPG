@@ -58,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -137,10 +137,10 @@ TextureImporter:
       name: Idle_Gun_right_up_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 19
-        width: 20
-        height: 27
+        x: 0
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -159,10 +159,10 @@ TextureImporter:
       name: Idle_Gun_right_up_1
       rect:
         serializedVersion: 2
-        x: 64
-        y: 19
-        width: 20
-        height: 26
+        x: 48
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,10 +181,10 @@ TextureImporter:
       name: Idle_Gun_right_up_2
       rect:
         serializedVersion: 2
-        x: 112
-        y: 19
-        width: 20
-        height: 27
+        x: 96
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,10 +203,10 @@ TextureImporter:
       name: Idle_Gun_right_up_3
       rect:
         serializedVersion: 2
-        x: 160
-        y: 19
-        width: 20
-        height: 28
+        x: 144
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,10 +225,10 @@ TextureImporter:
       name: Idle_Gun_right_up_4
       rect:
         serializedVersion: 2
-        x: 208
-        y: 19
-        width: 20
-        height: 27
+        x: 192
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,10 +247,10 @@ TextureImporter:
       name: Idle_Gun_right_up_5
       rect:
         serializedVersion: 2
-        x: 256
-        y: 19
-        width: 20
-        height: 26
+        x: 240
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -269,10 +269,10 @@ TextureImporter:
       name: Idle_Gun_right_up_6
       rect:
         serializedVersion: 2
-        x: 304
-        y: 19
-        width: 20
-        height: 27
+        x: 288
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -291,10 +291,10 @@ TextureImporter:
       name: Idle_Gun_right_up_7
       rect:
         serializedVersion: 2
-        x: 352
-        y: 19
-        width: 20
-        height: 27
+        x: 336
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,7 +313,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 765bfe78e79fe3643bb068a8974fd4f7
     internalID: 0
     vertices: []
     indices: 
@@ -322,7 +322,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Idle_Gun_right_up_0: 7034206274023088170
+      Idle_Gun_right_up_1: -8613358581442280890
+      Idle_Gun_right_up_2: -5617352483649271225
+      Idle_Gun_right_up_3: -8907298547052898876
+      Idle_Gun_right_up_4: 4370055535101140883
+      Idle_Gun_right_up_5: 8483786739634735186
+      Idle_Gun_right_up_6: 6037660149876683847
+      Idle_Gun_right_up_7: -8070951253075342743
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

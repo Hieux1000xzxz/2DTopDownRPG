@@ -58,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -137,10 +137,10 @@ TextureImporter:
       name: Shooting_right_down_0
       rect:
         serializedVersion: 2
-        x: 17
-        y: 19
-        width: 25
-        height: 25
+        x: 0
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -159,10 +159,10 @@ TextureImporter:
       name: Shooting_right_down_1
       rect:
         serializedVersion: 2
-        x: 65
-        y: 19
-        width: 21
-        height: 25
+        x: 48
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,10 +181,10 @@ TextureImporter:
       name: Shooting_right_down_2
       rect:
         serializedVersion: 2
-        x: 113
-        y: 19
-        width: 25
-        height: 25
+        x: 96
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,10 +203,10 @@ TextureImporter:
       name: Shooting_right_down_3
       rect:
         serializedVersion: 2
-        x: 161
-        y: 19
-        width: 21
-        height: 25
+        x: 144
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,10 +225,10 @@ TextureImporter:
       name: Shooting_right_down_4
       rect:
         serializedVersion: 2
-        x: 209
-        y: 19
-        width: 25
-        height: 25
+        x: 192
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,10 +247,10 @@ TextureImporter:
       name: Shooting_right_down_5
       rect:
         serializedVersion: 2
-        x: 257
-        y: 19
-        width: 21
-        height: 25
+        x: 240
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -269,10 +269,10 @@ TextureImporter:
       name: Shooting_right_down_6
       rect:
         serializedVersion: 2
-        x: 305
-        y: 19
-        width: 25
-        height: 25
+        x: 288
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -291,10 +291,10 @@ TextureImporter:
       name: Shooting_right_down_7
       rect:
         serializedVersion: 2
-        x: 353
-        y: 19
-        width: 21
-        height: 25
+        x: 336
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,7 +313,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a7e0c41a6e9db184b9d23a19547bf80d
     internalID: 0
     vertices: []
     indices: 
@@ -322,7 +322,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Shooting_right_down_0: -4934636799061281240
+      Shooting_right_down_1: -8962879576775921698
+      Shooting_right_down_2: -832684780593566198
+      Shooting_right_down_3: 867430653740963395
+      Shooting_right_down_4: -7670834827991100887
+      Shooting_right_down_5: 3248307998889199401
+      Shooting_right_down_6: -8280170513553138791
+      Shooting_right_down_7: -7706224931315948167
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

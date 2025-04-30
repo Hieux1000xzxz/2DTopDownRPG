@@ -58,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -137,10 +137,10 @@ TextureImporter:
       name: run_spear_right_down_0
       rect:
         serializedVersion: 2
-        x: 14
-        y: 15
-        width: 21
-        height: 30
+        x: 0
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -159,10 +159,10 @@ TextureImporter:
       name: run_spear_right_down_1
       rect:
         serializedVersion: 2
-        x: 62
-        y: 13
-        width: 21
-        height: 32
+        x: 48
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,10 +181,10 @@ TextureImporter:
       name: run_spear_right_down_2
       rect:
         serializedVersion: 2
-        x: 109
-        y: 12
-        width: 22
-        height: 31
+        x: 96
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,10 +203,10 @@ TextureImporter:
       name: run_spear_right_down_3
       rect:
         serializedVersion: 2
-        x: 155
-        y: 13
-        width: 24
-        height: 32
+        x: 144
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,10 +225,10 @@ TextureImporter:
       name: run_spear_right_down_4
       rect:
         serializedVersion: 2
-        x: 205
-        y: 15
-        width: 22
-        height: 30
+        x: 192
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,10 +247,10 @@ TextureImporter:
       name: run_spear_right_down_5
       rect:
         serializedVersion: 2
-        x: 252
-        y: 13
-        width: 23
-        height: 31
+        x: 240
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -269,10 +269,10 @@ TextureImporter:
       name: run_spear_right_down_6
       rect:
         serializedVersion: 2
-        x: 300
-        y: 12
-        width: 23
-        height: 31
+        x: 288
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -291,10 +291,10 @@ TextureImporter:
       name: run_spear_right_down_7
       rect:
         serializedVersion: 2
-        x: 349
-        y: 13
-        width: 22
-        height: 32
+        x: 336
+        y: 0
+        width: 48
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,7 +313,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 575156523f0ce4042bb7561fa754fab8
     internalID: 0
     vertices: []
     indices: 
@@ -322,7 +322,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      run_spear_right_down_0: -5250024925652252799
+      run_spear_right_down_1: -1951852235489971563
+      run_spear_right_down_2: 8861558968938043092
+      run_spear_right_down_3: 8597484435721048938
+      run_spear_right_down_4: 4775404445678276524
+      run_spear_right_down_5: 4854142838594932466
+      run_spear_right_down_6: -347569670945876776
+      run_spear_right_down_7: -4965062484732699919
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
