@@ -24,4 +24,5 @@ public class Bullet : MonoBehaviour
     {
         Destroy(gameObject, 4f); // tự hủy sau 3 giây
     }
+  
 }

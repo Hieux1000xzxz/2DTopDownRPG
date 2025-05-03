@@ -16,9 +16,18 @@ public class PlayerController : MonoBehaviour
 
     [Header("Shooting Settings")]
     [SerializeField] private GameObject bulletPrefab;
-    [SerializeField] private Transform bulletSpawnPoint; // điểm cố định để sinh đạn
+    [SerializeField] private Transform[] bulletSpawnPoints; // Mảng các điểm sinh đạn
     [SerializeField] private float bulletSpeed = 10f;
-    [SerializeField] private float attackRate = 3f; // số lần bắn mỗi giây
+    [SerializeField] private float attackRate = 3f; // Số lần bắn mỗi giây
+
+    [Header("Spear Attack Settings")]
+    [SerializeField] private float spearAttackLength = 2f; // Chiều dài vùng tấn công
+    [SerializeField] private float spearAttackWidth = 1f;  // Chiều rộng vùng tấn công
+    [SerializeField] private LayerMask enemyLayer;         // Lớp của kẻ địch
+    [SerializeField] private Transform attackPoint;        // Điểm xuất phát của vùng tấn công
+    [SerializeField] private float attackCooldown = 0.5f;  // Thời gian hồi chiêu
+    [SerializeField] private float attackDuration = 1f; // thời gian animation chém kiếm
+
 
     private Collider2D playerCollider;
     private Rigidbody2D rb;
@@ -30,6 +39,7 @@ public class PlayerController : MonoBehaviour
     private bool canDash = true;
     private float dashTimer;
     private bool isAttacking = false;
+    private bool canAttack = true;
     private Coroutine attackCoroutine;
 
     private void Awake()
@@ -46,6 +56,7 @@ public class PlayerController : MonoBehaviour
         CheckDashTrigger();
         CheckWeaponSwitch();
         CheckShoot();
+        CheckSpearAttack();
     }
 
     private void ProcessInput()
@@ -93,7 +104,7 @@ public class PlayerController : MonoBehaviour
         {
             ProcessDash();
         }
-        else
+        else if (!(isAttacking && animator.GetInteger("WeaponType") == 2)) // ✅ chỉ khóa khi đang chém kiếm
         {
             ProcessMovement();
         }
@@ -147,7 +158,7 @@ public class PlayerController : MonoBehaviour
                 attackCoroutine = StartCoroutine(AttackLoop());
         }
 
-        if (Input.GetMouseButtonUp(0))
+        if (Input.GetMouseButtonUp(0) && animator.GetInteger("WeaponType") == 3)
         {
             isAttacking = false;
             if (attackCoroutine != null)
@@ -156,6 +167,7 @@ public class PlayerController : MonoBehaviour
                 attackCoroutine = null;
             }
         }
+
     }
 
     private IEnumerator AttackLoop()
@@ -169,15 +181,104 @@ public class PlayerController : MonoBehaviour
 
     private void Shoot()
     {
-        GameObject bullet = Instantiate(bulletPrefab, bulletSpawnPoint.position, Quaternion.identity);
+        // Xác định hướng dựa trên lastMoveDirection
+        int directionIndex = GetDirectionIndex(lastMoveDirection);
+
+        // Lấy điểm sinh đạn tương ứng
+        Transform spawnPoint = bulletSpawnPoints[directionIndex];
+
+        // Tạo đạn tại điểm sinh đạn
+        GameObject bullet = Instantiate(bulletPrefab, spawnPoint.position, Quaternion.identity);
         Bullet bulletScript = bullet.GetComponent<Bullet>();
         bulletScript.direction = lastMoveDirection;
         bulletScript.speed = bulletSpeed;
 
+        // Bỏ qua va chạm giữa đạn và người chơi
         Collider2D bulletCol = bullet.GetComponent<Collider2D>();
         if (bulletCol != null && playerCollider != null)
         {
             Physics2D.IgnoreCollision(bulletCol, playerCollider);
         }
     }
+    private void CheckSpearAttack()
+    {
+        if (Input.GetMouseButtonDown(0) && animator.GetInteger("WeaponType") == 2 && canAttack)
+        {
+            StartCoroutine(SpearAttack());
+        }
+    }
+
+
+    private IEnumerator SpearAttack()
+    {
+        canAttack = false;
+        isAttacking = true;
+        yield return new WaitForSeconds(0.3f); // delay đầu tiên
+
+        // Đòn chém 1
+        DoSpearHit();
+        yield return new WaitForSeconds(0.5f); // delay giữa 2 đòn
+
+        // Đòn chém 2
+        DoSpearHit();
+        yield return new WaitForSeconds(attackDuration - 0.8f); // phần còn lại
+
+        isAttacking = false;
+        yield return new WaitForSeconds(attackCooldown - attackDuration);
+        canAttack = true;
+    }
+
+
+
+
+    private void DoSpearHit()
+    {
+        Vector2 attackPosition = (Vector2)attackPoint.position + lastMoveDirection.normalized * (spearAttackLength / 2f);
+        float attackAngle = Mathf.Atan2(lastMoveDirection.y, lastMoveDirection.x) * Mathf.Rad2Deg;
+
+        Collider2D[] hitEnemies = Physics2D.OverlapBoxAll(
+            attackPosition,
+            new Vector2(spearAttackLength, spearAttackWidth),
+            attackAngle,
+            enemyLayer
+        );
+
+        foreach (Collider2D enemy in hitEnemies)
+        {
+            Debug.Log("Kẻ địch bị trúng đòn: " + enemy.name);
+            // enemy.GetComponent<EnemyHealth>()?.TakeDamage(damage);
+        }
+    }
+
+
+
+
+    private void OnDrawGizmosSelected()
+    {
+        if (attackPoint == null) return;
+
+        Gizmos.color = Color.red;
+
+        // Tính toán vị trí và góc xoay của vùng tấn công
+        Vector2 attackPosition = (Vector2)attackPoint.position + lastMoveDirection.normalized * (spearAttackLength / 2f);
+        float attackAngle = Mathf.Atan2(lastMoveDirection.y, lastMoveDirection.x) * Mathf.Rad2Deg;
+
+        // Hiển thị vùng tấn công hình chữ nhật
+        Gizmos.matrix = Matrix4x4.TRS(attackPosition, Quaternion.Euler(0, 0, attackAngle), Vector3.one);
+        Gizmos.DrawWireCube(Vector3.zero, new Vector3(spearAttackLength, spearAttackWidth, 0));
+    }
+    private int GetDirectionIndex(Vector2 direction)
+    {
+        if (direction.x > 0.5f && Mathf.Abs(direction.y) <= 0.5f) return 0; // Phải
+        if (direction.x < -0.5f && Mathf.Abs(direction.y) <= 0.5f) return 1; // Trái
+        if (direction.y > 0.5f && Mathf.Abs(direction.x) <= 0.5f) return 2; // Trên
+        if (direction.y < -0.5f && Mathf.Abs(direction.x) <= 0.5f) return 3; // Dưới
+        if (direction.x > 0.5f && direction.y > 0.5f) return 4; // Phải-Trên
+        if (direction.x > 0.5f && direction.y < -0.5f) return 5; // Phải-Dưới
+        if (direction.x < -0.5f && direction.y > 0.5f) return 6; // Trái-Trên
+        if (direction.x < -0.5f && direction.y < -0.5f) return 7; // Trái-Dưới
+
+        return 0; // Mặc định là Phải
+    }
+
 }
