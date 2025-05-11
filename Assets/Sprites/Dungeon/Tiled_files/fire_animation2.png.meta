@@ -88,7 +88,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -167,10 +167,10 @@ TextureImporter:
       name: fire_animation2_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 171
-        width: 18
-        height: 18
+        x: 0
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -189,10 +189,10 @@ TextureImporter:
       name: fire_animation2_1
       rect:
         serializedVersion: 2
-        x: 38
-        y: 170
-        width: 18
-        height: 18
+        x: 32
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -211,10 +211,10 @@ TextureImporter:
       name: fire_animation2_2
       rect:
         serializedVersion: 2
-        x: 73
-        y: 171
-        width: 13
-        height: 14
+        x: 64
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -233,10 +233,10 @@ TextureImporter:
       name: fire_animation2_3
       rect:
         serializedVersion: 2
-        x: 7
-        y: 142
-        width: 18
-        height: 18
+        x: 0
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -255,10 +255,10 @@ TextureImporter:
       name: fire_animation2_4
       rect:
         serializedVersion: 2
-        x: 38
-        y: 142
-        width: 18
-        height: 18
+        x: 32
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -277,10 +277,10 @@ TextureImporter:
       name: fire_animation2_5
       rect:
         serializedVersion: 2
-        x: 73
-        y: 143
-        width: 13
-        height: 14
+        x: 64
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -299,10 +299,10 @@ TextureImporter:
       name: fire_animation2_6
       rect:
         serializedVersion: 2
-        x: 6
-        y: 106
-        width: 20
-        height: 20
+        x: 0
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -321,10 +321,10 @@ TextureImporter:
       name: fire_animation2_7
       rect:
         serializedVersion: 2
-        x: 40
-        y: 107
-        width: 14
-        height: 15
+        x: 32
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -343,10 +343,10 @@ TextureImporter:
       name: fire_animation2_8
       rect:
         serializedVersion: 2
-        x: 72
-        y: 107
-        width: 15
-        height: 15
+        x: 64
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -365,10 +365,10 @@ TextureImporter:
       name: fire_animation2_9
       rect:
         serializedVersion: 2
-        x: 6
-        y: 77
-        width: 20
-        height: 20
+        x: 0
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -387,10 +387,10 @@ TextureImporter:
       name: fire_animation2_10
       rect:
         serializedVersion: 2
-        x: 40
-        y: 79
-        width: 14
-        height: 15
+        x: 32
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -409,10 +409,10 @@ TextureImporter:
       name: fire_animation2_11
       rect:
         serializedVersion: 2
-        x: 72
-        y: 79
-        width: 15
-        height: 15
+        x: 64
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -431,10 +431,10 @@ TextureImporter:
       name: fire_animation2_12
       rect:
         serializedVersion: 2
-        x: 8
-        y: 43
-        width: 16
-        height: 17
+        x: 0
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -453,10 +453,10 @@ TextureImporter:
       name: fire_animation2_13
       rect:
         serializedVersion: 2
-        x: 39
-        y: 43
-        width: 16
-        height: 16
+        x: 32
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -475,10 +475,10 @@ TextureImporter:
       name: fire_animation2_14
       rect:
         serializedVersion: 2
-        x: 71
-        y: 42
-        width: 17
-        height: 17
+        x: 64
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -497,10 +497,10 @@ TextureImporter:
       name: fire_animation2_15
       rect:
         serializedVersion: 2
-        x: 8
-        y: 15
-        width: 16
-        height: 16
+        x: 0
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -519,10 +519,10 @@ TextureImporter:
       name: fire_animation2_16
       rect:
         serializedVersion: 2
-        x: 39
-        y: 15
-        width: 16
-        height: 16
+        x: 32
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -541,10 +541,10 @@ TextureImporter:
       name: fire_animation2_17
       rect:
         serializedVersion: 2
-        x: 71
-        y: 14
-        width: 17
-        height: 17
+        x: 64
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -563,7 +563,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 61d18cdeb137f7b418afea35090b3545
     internalID: 0
     vertices: []
     indices: 
@@ -572,7 +572,25 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      fire_animation2_0: 7457898849070156403
+      fire_animation2_1: -6205515954121075453
+      fire_animation2_10: 1345120450249137630
+      fire_animation2_11: 8007963363641288697
+      fire_animation2_12: 9081455251082315214
+      fire_animation2_13: -2929077035095802016
+      fire_animation2_14: -4618729491785122912
+      fire_animation2_15: 5789506983370548545
+      fire_animation2_16: -7206521265220756087
+      fire_animation2_17: -2680147296748589825
+      fire_animation2_2: -1704357797399710597
+      fire_animation2_3: 3122655143602342741
+      fire_animation2_4: -5565151816953339628
+      fire_animation2_5: 1972985562857032967
+      fire_animation2_6: 7734794942079549178
+      fire_animation2_7: -7641408703102358652
+      fire_animation2_8: -8368115229960529448
+      fire_animation2_9: -3253981810064845659
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

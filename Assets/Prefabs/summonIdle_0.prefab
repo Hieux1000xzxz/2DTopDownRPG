@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 526480244493100991}
   - component: {fileID: 8054344806414986786}
   - component: {fileID: 5726132804063524765}
+  - component: {fileID: 8309726558717322111}
   m_Layer: 0
   m_Name: summonIdle_0
   m_TagString: Untagged
@@ -139,3 +140,16 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   attackRange: 0.5
+--- !u!114 &8309726558717322111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6734953039146520415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12f0cd9af4fd5cf41a483857ba6a5106, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 15

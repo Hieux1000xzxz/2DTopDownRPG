@@ -186,7 +186,11 @@ public class PlayerController : MonoBehaviour
 
         // Lấy điểm sinh đạn tương ứng
         Transform spawnPoint = bulletSpawnPoints[directionIndex];
-
+        if (bulletPrefab == null)
+        {
+            Debug.LogError("Bullet prefab chưa được gán!");
+            return;
+        }
         // Tạo đạn tại điểm sinh đạn
         GameObject bullet = Instantiate(bulletPrefab, spawnPoint.position, Quaternion.identity);
         Bullet bulletScript = bullet.GetComponent<Bullet>();
@@ -246,7 +250,22 @@ public class PlayerController : MonoBehaviour
         foreach (Collider2D enemy in hitEnemies)
         {
             Debug.Log("Kẻ địch bị trúng đòn: " + enemy.name);
-            // enemy.GetComponent<EnemyHealth>()?.TakeDamage(damage);
+            EnemyHealth enemyHealth = enemy.GetComponent<EnemyHealth>();
+            if (enemyHealth != null)
+            {
+                enemyHealth.TakeDamage(30); // Gây 30 sát thương (có thể điều chỉnh)
+            }
+            Flash flash = enemy.GetComponent<Flash>();
+            if (flash != null)
+            {
+                flash.StartFlash();
+            }
+            // Gọi KnockBack
+            KnockBack knockBack = enemy.GetComponent<KnockBack>();
+            if (knockBack != null)
+            {
+                knockBack.ApplyKnockBack(transform.position); // Đẩy lùi từ vị trí người chơi
+            }
         }
     }
 

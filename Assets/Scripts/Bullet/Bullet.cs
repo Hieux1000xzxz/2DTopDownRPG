@@ -16,7 +16,22 @@ public class Bullet : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        EnemyHealth enemyHealth = collision.GetComponent<EnemyHealth>();
+        if (enemyHealth != null)
+        {
+            enemyHealth.TakeDamage(15); // Gây sát thương
+        }
         // TODO: xử lý khi trúng kẻ địch nếu cần
+        KnockBack knockBack = collision.GetComponent<KnockBack>();
+        if (knockBack != null)
+        {
+            knockBack.ApplyKnockBack(transform.position); // Đẩy lùi từ vị trí đạn
+        }
+        Flash flash = collision.GetComponent<Flash>();
+        if (flash != null)
+        {
+            flash.StartFlash();
+        }
         Destroy(gameObject);
     }
 
