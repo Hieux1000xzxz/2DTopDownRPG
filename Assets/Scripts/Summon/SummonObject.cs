@@ -15,13 +15,10 @@ public class SummonObject : MonoBehaviour
     public float spawnDelay = 1f;
 
     [Header("Combat Settings")]
-    public int maxHealth = 50;
     public int damage = 10;
     public float attackCooldown = 1f; // Thời gian giữa 2 lần gây damage
     public LayerMask playerLayer;
     public float attackRange = 0.5f;  // Phạm vi kiểm tra trúng player khi charge
-
-    private int currentHealth;
     private bool isWaiting = false;
     private bool isCharging = false;
     private bool isActive = false;
@@ -29,19 +26,20 @@ public class SummonObject : MonoBehaviour
 
     private void Start()
     {
-        currentHealth = maxHealth;
-
         if (target == null)
         {
-            GameObject playerObj = GameObject.FindWithTag("Player");
-            if (playerObj != null)
-                target = playerObj.transform;
+            GameObject player = GameObject.FindGameObjectWithTag("Player");
+            if (player != null)
+            {
+                target = player.transform;
+            }
         }
 
         animator.Play("Appear");
         StartCoroutine(ActivateAfterSpawn());
+      
     }
-
+   
     private IEnumerator ActivateAfterSpawn()
     {
         yield return new WaitForSeconds(spawnDelay);
@@ -126,22 +124,6 @@ public class SummonObject : MonoBehaviour
         }
     }
 
-    public void TakeDamage(int amount)
-    {
-        if (currentHealth <= 0) return;
-
-        currentHealth -= amount;
-        if (currentHealth <= 0)
-        {
-            Die();
-        }
-    }
-
-    private void Die()
-    {
-        // Play animation chết nếu có
-        Destroy(gameObject);
-    }
 
     private void OnDrawGizmosSelected()
     {

@@ -2,9 +2,9 @@
 
 public class PlayerHealth : MonoBehaviour
 {
-    public int maxHealth = 100;
+    [SerializeField] private int maxHealth = 100;
+    [SerializeField] private GameObject floatingTextPrefab;
     private int currentHealth;
-
     private void Start()
     {
         currentHealth = maxHealth;
@@ -19,6 +19,10 @@ public class PlayerHealth : MonoBehaviour
         {
             Die();
         }
+        if (floatingTextPrefab != null)
+        {
+            ShowFloatingText(amount);
+        }
     }
 
     private void Die()
@@ -26,5 +30,11 @@ public class PlayerHealth : MonoBehaviour
         Debug.Log("Player chết rồi!");
         // Có thể thêm animation chết ở đây
         Destroy(gameObject);
+    }
+    private void ShowFloatingText(int damage)
+    {
+        GameObject text = Instantiate(floatingTextPrefab, transform.position, Quaternion.identity);
+        FloatingDamageText floating = text.GetComponent<FloatingDamageText>();
+        floating.SetDamage(damage);
     }
 }

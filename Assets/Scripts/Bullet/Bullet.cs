@@ -19,7 +19,7 @@ public class Bullet : MonoBehaviour
         EnemyHealth enemyHealth = collision.GetComponent<EnemyHealth>();
         if (enemyHealth != null)
         {
-            enemyHealth.TakeDamage(15); // Gây sát thương
+            enemyHealth.TakeDamage(10); // Gây sát thương
         }
         // TODO: xử lý khi trúng kẻ địch nếu cần
         KnockBack knockBack = collision.GetComponent<KnockBack>();

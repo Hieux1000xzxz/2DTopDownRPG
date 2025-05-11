@@ -140,8 +140,9 @@ GameObject:
   - component: {fileID: 2458623243219678217}
   - component: {fileID: 2248185923611764344}
   - component: {fileID: 8171115620530147460}
-  - component: {fileID: 5342520890344523563}
-  m_Layer: 0
+  - component: {fileID: -8710340151982708763}
+  - component: {fileID: -7891447949350171238}
+  m_Layer: 7
   m_Name: Boss
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -341,7 +342,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3edb270df879cae43b690fc4d51ca12e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  summonPrefab: {fileID: 6734953039146520415, guid: 12e1fc34528e8a54c994cced16ceeed0, type: 3}
+  summonPrefab: {fileID: 6734953039146520415, guid: ad1eb5b069478a340934e888eeab5b86, type: 3}
   summonPoints:
   - {fileID: 543893479331486049}
   - {fileID: 5574234550157512529}
@@ -349,9 +350,9 @@ MonoBehaviour:
   - {fileID: 7273852238652349904}
   animator: {fileID: 2684231810007045325}
   summonDuration: 2
-  player: {fileID: 0}
+  player: {fileID: 4290787719562714465, guid: 3e3aeda8e2496fa4ea050585f69ee5fb, type: 3}
   IsSummoning: 0
---- !u!114 &5342520890344523563
+--- !u!114 &-8710340151982708763
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -360,10 +361,49 @@ MonoBehaviour:
   m_GameObject: {fileID: 8192777082168471866}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 733976adee546244ea13186b1fc6047f, type: 3}
+  m_Script: {fileID: 11500000, guid: 12f0cd9af4fd5cf41a483857ba6a5106, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 300
+  deathPrefab: {fileID: 7669966937311582299, guid: 011d1314cbd48764e968926d771eeb3d, type: 3}
+  floatingTextPrefab: {fileID: 1135579629834738341, guid: b9aa518893e8a2c42b7ecc0b1ab400aa, type: 3}
+--- !u!70 &-7891447949350171238
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8192777082168471866}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.05747831, y: -0.07663755}
+  m_Size: {x: 0.2123352, y: 0.51462865}
+  m_Direction: 0
 --- !u!1 &9096689049177906509
 GameObject:
   m_ObjectHideFlags: 0

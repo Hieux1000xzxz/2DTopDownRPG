@@ -7,8 +7,19 @@ public class BossSummonSkill : MonoBehaviour
     public Transform[] summonPoints;
     public Animator animator;
     public float summonDuration = 2f; // Thời gian animation Summon
-    public Transform player;  // Mục tiêu là người chơi
+    private Transform target;  // Mục tiêu là người chơi
     public bool IsSummoning = false;
+
+    private void Start()
+    {
+        // Tìm kiếm đối tượng có tag "Player" khi bắt đầu
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        if (player != null)
+        {
+            target = player.transform;
+        }
+    }
+
     public void Execute()
     {
         StopAllCoroutines();
@@ -29,7 +40,7 @@ public class BossSummonSkill : MonoBehaviour
             SummonObject summonScript = summonedObject.GetComponent<SummonObject>();
             if (summonScript != null)
             {
-                summonScript.target = player;
+                summonScript.target = target;
             }
         }
 

@@ -4,7 +4,7 @@ using UnityEngine;
 public class BossAttackSkill : MonoBehaviour
 {
     public Animator animator;
-    public float attackDuration = 1.5f;   // Thời gian tấn công
+    public float attackDuration = 1.3f;   // Thời gian tấn công
     public float attackRange = 1.5f;       // Phạm vi tấn công
     public float attackWidth = 1f;         // Chiều rộng tấn công
     public int damageAmount = 20;          // Lượng damage gây ra
@@ -37,6 +37,16 @@ public class BossAttackSkill : MonoBehaviour
         animator.SetBool("IsAttacking", true);
 
         // Cập nhật hướng tấn công dựa trên vị trí của boss và người chơi
+        Attack();
+        yield return new WaitForSeconds(1f);
+        Attack();
+
+        yield return new WaitForSeconds(attackDuration);
+
+        animator.SetBool("IsAttacking", false);  // Kết thúc animation tấn công
+    }
+    private void Attack()
+    {
         SetAttackDirection();
 
         // Kiểm tra gây damage trong thời gian attack
@@ -54,12 +64,7 @@ public class BossAttackSkill : MonoBehaviour
                 playerHealth.TakeDamage(damageAmount);
             }
         }
-
-        yield return new WaitForSeconds(attackDuration);
-
-        animator.SetBool("IsAttacking", false);  // Kết thúc animation tấn công
     }
-
     // Đổi hướng tấn công của boss dựa trên vị trí của boss và người chơi
     private void SetAttackDirection()
     {

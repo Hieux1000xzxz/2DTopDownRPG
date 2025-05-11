@@ -18,7 +18,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private GameObject bulletPrefab;
     [SerializeField] private Transform[] bulletSpawnPoints; // Mảng các điểm sinh đạn
     [SerializeField] private float bulletSpeed = 10f;
-    [SerializeField] private float attackRate = 3f; // Số lần bắn mỗi giây
+    [SerializeField] private float attackRate = 2f; // Số lần bắn mỗi giây
 
     [Header("Spear Attack Settings")]
     [SerializeField] private float spearAttackLength = 2f; // Chiều dài vùng tấn công
@@ -135,15 +135,15 @@ public class PlayerController : MonoBehaviour
 
     private void CheckWeaponSwitch()
     {
-        if (Input.GetKeyDown(KeyCode.Alpha1))
+        if (isAttacking == false && Input.GetKeyDown(KeyCode.Alpha1))
         {
             animator.SetInteger("WeaponType", 1); // không vũ khí
         }
-        else if (Input.GetKeyDown(KeyCode.Alpha2))
+        else if (isAttacking == false && Input.GetKeyDown(KeyCode.Alpha2))
         {
             animator.SetInteger("WeaponType", 2); // kiếm
         }
-        else if (Input.GetKeyDown(KeyCode.Alpha3))
+        else if (isAttacking == false && Input.GetKeyDown(KeyCode.Alpha3))
         {
             animator.SetInteger("WeaponType", 3); // súng
         }
@@ -253,7 +253,7 @@ public class PlayerController : MonoBehaviour
             EnemyHealth enemyHealth = enemy.GetComponent<EnemyHealth>();
             if (enemyHealth != null)
             {
-                enemyHealth.TakeDamage(30); // Gây 30 sát thương (có thể điều chỉnh)
+                enemyHealth.TakeDamage(20); // Gây 30 sát thương (có thể điều chỉnh)
             }
             Flash flash = enemy.GetComponent<Flash>();
             if (flash != null)
@@ -268,8 +268,6 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
-
-
 
 
     private void OnDrawGizmosSelected()

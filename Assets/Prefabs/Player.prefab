@@ -403,6 +403,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
+  floatingTextPrefab: {fileID: 890572048312966862, guid: 743bb1fb587d0f642a10ed6b7eee9ae6, type: 3}
 --- !u!1 &5852462154929065183
 GameObject:
   m_ObjectHideFlags: 0

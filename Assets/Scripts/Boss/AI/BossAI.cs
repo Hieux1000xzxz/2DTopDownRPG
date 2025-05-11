@@ -2,18 +2,28 @@
 
 public class BossAI : MonoBehaviour
 {
-    public Transform target; // Mục tiêu (người chơi)
     public float attackRange = 2f;
-    public float summonCooldown = 10f;
+    public float summonCooldown = 12f;
     private float lastSummonTime;
-    private float attackCooldown = 4f;
+    private float attackCooldown = 5f;
     private float lastAttackTime;
 
     public BossDashSkill dashSkill;
     public BossAttackSkill attackSkill;
     public BossSummonSkill summonSkill;
     public Animator animator;
+    private Transform target; // Mục tiêu (người chơi)
 
+
+    private void Start()
+    {
+        // Tìm kiếm đối tượng có tag "Player" khi bắt đầu
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        if (player != null)
+        {
+            target = player.transform;
+        }
+    }
     private void Update()
     {
         // Kiểm tra xem target có null không (tránh lỗi khi không có mục tiêu)
