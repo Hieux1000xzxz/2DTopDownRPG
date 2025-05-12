@@ -236,7 +236,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9cf1e48f90e79344abffa5ca1d0b45c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
   attackRange: 2
   summonCooldown: 10
   dashSkill: {fileID: 2248185923611764344}
@@ -251,7 +250,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8192777082168471866}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -350,7 +349,6 @@ MonoBehaviour:
   - {fileID: 7273852238652349904}
   animator: {fileID: 2684231810007045325}
   summonDuration: 2
-  player: {fileID: 4290787719562714465, guid: 3e3aeda8e2496fa4ea050585f69ee5fb, type: 3}
   IsSummoning: 0
 --- !u!114 &-8710340151982708763
 MonoBehaviour:

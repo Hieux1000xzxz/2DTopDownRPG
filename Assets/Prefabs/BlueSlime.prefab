@@ -20,7 +20,7 @@ GameObject:
   - component: {fileID: -4887037030930591637}
   m_Layer: 7
   m_Name: BlueSlime
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34,7 +34,7 @@ Transform:
   m_GameObject: {fileID: 3195707233103668477}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.46765, y: -3.321636, z: 0}
+  m_LocalPosition: {x: -1.5622227, y: -2.8783622, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -82,8 +82,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 113433075
+  m_SortingLayer: -1
   m_SortingOrder: 2
   m_Sprite: {fileID: -1468931158, guid: f4e859bd1b8db634faeb1f6c4c29bdf3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -228,8 +228,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 40
+  gameManager: {fileID: 0}
   deathPrefab: {fileID: 7669966937311582299, guid: 011d1314cbd48764e968926d771eeb3d, type: 3}
-  floatingTextPrefab: {fileID: 890572048312966862, guid: 743bb1fb587d0f642a10ed6b7eee9ae6, type: 3}
+  floatingTextPrefab: {fileID: 1135579629834738341, guid: b9aa518893e8a2c42b7ecc0b1ab400aa, type: 3}
 --- !u!114 &7197990095251253712
 MonoBehaviour:
   m_ObjectHideFlags: 0

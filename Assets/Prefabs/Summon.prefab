@@ -134,7 +134,6 @@ MonoBehaviour:
   postRetreatPause: 1
   animator: {fileID: 8054344806414986786}
   spawnDelay: 1
-  maxHealth: 15
   damage: 1
   attackCooldown: 2
   playerLayer:

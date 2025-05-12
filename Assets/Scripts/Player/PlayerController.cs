@@ -104,7 +104,7 @@ public class PlayerController : MonoBehaviour
         {
             ProcessDash();
         }
-        else if (!(isAttacking && animator.GetInteger("WeaponType") == 2)) // ✅ chỉ khóa khi đang chém kiếm
+        else if (!(isAttacking && animator.GetInteger("WeaponType") == 2)) // 
         {
             ProcessMovement();
         }
@@ -217,6 +217,15 @@ public class PlayerController : MonoBehaviour
     {
         canAttack = false;
         isAttacking = true;
+
+        // Lưu trạng thái vật lý hiện tại
+        RigidbodyConstraints2D originalConstraints = rb.constraints;
+        Vector2 originalVelocity = rb.linearVelocity;
+
+        // Vô hiệu hóa vật lý hoàn toàn trong lúc tấn công
+        rb.constraints = RigidbodyConstraints2D.FreezeAll;
+        rb.linearVelocity = Vector2.zero; // Đặt lại vận tốc
+
         yield return new WaitForSeconds(0.3f); // delay đầu tiên
 
         // Đòn chém 1
@@ -228,7 +237,15 @@ public class PlayerController : MonoBehaviour
         yield return new WaitForSeconds(attackDuration - 0.8f); // phần còn lại
 
         isAttacking = false;
+
+        // Khôi phục lại trạng thái vật lý ban đầu
+        rb.constraints = originalConstraints;
+
+        // Tùy chọn: Có thể khôi phục lại vận tốc gốc hoặc để nó ở 0
+        // rb.velocity = originalVelocity; // Bỏ comment nếu muốn khôi phục vận tốc gốc
+
         yield return new WaitForSeconds(attackCooldown - attackDuration);
+
         canAttack = true;
     }
 

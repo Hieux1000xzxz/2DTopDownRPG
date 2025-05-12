@@ -5,14 +5,22 @@ public class EnemyHealth : MonoBehaviour
     [Header("Health Settings")]
     public int maxHealth = 100;
     private int currentHealth;
+    private GameManager gameManager;
     public bool IsDead => currentHealth <= 0; // Thuộc tính kiểm tra trạng thái chết
     public delegate void OnHealthChanged(int currentHealth, int maxHealth);
     public event OnHealthChanged HealthChanged;
     
     public GameObject deathPrefab; // Prefab để tạo hiệu ứng chết
     [SerializeField] private GameObject floatingTextPrefab; // Prefab cho text nổi
+    
     private void Awake()
     {
+        gameManager = FindAnyObjectByType<GameManager>();
+
+        if (gameManager == null)
+        {
+            Debug.LogError("GameManager not found in the scene!");
+        }
         currentHealth = maxHealth;
     }
 
@@ -39,6 +47,8 @@ public class EnemyHealth : MonoBehaviour
         Debug.Log($"{gameObject.name} đã chết!");
         // Thêm logic khi chết, ví dụ: animation, rơi vật phẩm, v.v.
         Instantiate(deathPrefab, transform.position, Quaternion.identity);
+        gameManager.OnEnemyDefeated();
+
         Destroy(gameObject);
     }
     private void ShowFloatingText(int damage)
