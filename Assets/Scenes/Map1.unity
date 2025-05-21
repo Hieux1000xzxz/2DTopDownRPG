@@ -4064,7 +4064,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 088029c651dd6e54c933b526fc908f38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  exitPoint: {fileID: 1477653494}
 --- !u!1 &467435904
 GameObject:
   m_ObjectHideFlags: 0
@@ -22270,7 +22269,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 088029c651dd6e54c933b526fc908f38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  exitPoint: {fileID: 1477653494}
 --- !u!1 &1509335912
 GameObject:
   m_ObjectHideFlags: 0
@@ -38154,6 +38152,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 5407584221204459653, guid: 3e3aeda8e2496fa4ea050585f69ee5fb, type: 3}
+      propertyPath: bulletSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5407584221204459653, guid: 3e3aeda8e2496fa4ea050585f69ee5fb, type: 3}
+      propertyPath: bulletPrefab
+      value: 
+      objectReference: {fileID: 1663067025765051923, guid: 7006efe34cfeaca4eb14cda0a895d90b, type: 3}
     - target: {fileID: 8693571371640529043, guid: 3e3aeda8e2496fa4ea050585f69ee5fb, type: 3}
       propertyPath: healthSlider
       value: 

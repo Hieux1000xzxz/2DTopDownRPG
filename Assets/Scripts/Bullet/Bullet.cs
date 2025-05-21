@@ -7,11 +7,21 @@ public class Bullet : MonoBehaviour
 
     private void Update()
     {
+        // Di chuyển viên đạn
         transform.Translate(direction.normalized * speed * Time.deltaTime, Space.World);
 
-        // Xoay viên đạn theo hướng bay (sprite gốc hướng theo trục Y)
+        // Tính góc xoay theo hướng bay
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-        transform.rotation = Quaternion.Euler(0, 0, angle - 90f);
+        transform.rotation = Quaternion.Euler(0f, 0f, angle);
+
+        // Lật sprite nếu bay sang trái
+        Vector3 scale = transform.localScale;
+        if (direction.x < 0)
+            scale.y = -Mathf.Abs(scale.y); // lật theo trục X bằng cách đảo scale.y nếu xoay Z
+        else
+            scale.y = Mathf.Abs(scale.y);
+        transform.localScale = scale;
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
